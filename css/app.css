@@ -1,0 +1,112 @@
+/* AUTOPREFIXER */
+/* https://autoprefixer.github.io/ */
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+  /* height: 100%; */
+  background-color: #343a40;
+}
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  object-fit: cover;
+  object-position: 0% 23%;
+}
+
+#nav {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  z-index: 9;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  border: solid 1px white;
+  border-radius: 3%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.openMenuMiniBox {
+  width: 250px;
+  height: 15px;
+  border: solid 1px white;
+  border-radius: 3%;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.closedMenuMiniBox {
+  width: 3%;
+  height: 10%;
+  /* border: solid 1px white;
+  border-radius: 3%; */
+  /* background-color: #343a40; */
+  background-color: #white;
+  position: fixed;
+}
+
+.icon-nav {
+  position: relative;
+  bottom: 36px;
+}
+
+.hidden {
+  display: none;
+}
+
+.icon-closed-menu {
+  position: relative;
+  bottom: 0px;
+  right: 35px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  color: white;
+}
+
+
+.reverbnation {
+  height: 150px;
+  width: 150px;
+}
+
+#content {
+  background-image: url("../img/brick-jacket.jpg");
+}
+
+.content-p {
+  letter-spacing: 2px;
+  line-height: 35px;
+  text-align: left;
+}
+
+#web, #artistDevelopment, #musicProduction, #contact {
+  background-color: rgb(255, 255, 255, 0.4)
+}
+
+/* #navlinks {
+  position: fixed;
+} */
+
+/* .bg-black {
+  background-color: black;
+} */
