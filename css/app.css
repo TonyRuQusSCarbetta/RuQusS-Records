@@ -26,7 +26,7 @@ img {
 
 #nav {
   position: fixed;
-  height: 100vh;
+  height: 200px;
   width: 100%;
   z-index: 9;
 }
@@ -46,22 +46,26 @@ img {
   border: solid 1px white;
   border-radius: 3%;
   background-color: white;
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
-.closedMenuMiniBox {
+/* .closedMenuMiniBox {
   width: 3%;
   height: 10%;
-  /* border: solid 1px white;
-  border-radius: 3%; */
-  /* background-color: #343a40; */
+
   background-color: #white;
   position: fixed;
-}
+} */
 
 .icon-nav {
   position: relative;
   bottom: 36px;
+  left: 20px;
+}
+
+.speaker-icon {
+  position: relative;
+  left: 10px;
 }
 
 .hidden {
@@ -70,8 +74,9 @@ img {
 
 .icon-closed-menu {
   position: relative;
-  bottom: 0px;
+  bottom: 3px;
   right: 35px;
+  /* z-index: 999; */
 }
 
 a:hover {
@@ -91,6 +96,12 @@ a {
 
 #content {
   background-image: url("../img/brick-jacket.jpg");
+      margin-top: 151px;
+      border-radius: 3%;
+}
+
+.border-radius {
+  border-radius: 1%;
 }
 
 .content-p {
@@ -102,6 +113,83 @@ a {
 #web, #artistDevelopment, #musicProduction, #contact {
   background-color: rgb(255, 255, 255, 0.4)
 }
+
+div#menuTitle {
+    margin: 10px 0 10px 0;
+}
+
+.CarbettaCoding {
+  width: 310px;
+}
+
+/* footer {
+  margin: 0 auto;
+}
+
+#footer {
+  margin: 0 auto;
+} */
+/* #openMenuButton {
+  position: fixed;
+  z-index: 999;
+} */
+
+div#menuButton {
+    position: fixed;
+    right: 121px;
+    z-index: 999;
+    top: 10px;
+  }
+
+h5 {
+  margin-top: 8px;
+}
+
+@media only screen and (max-width: 769px) {
+  #nav {
+    position: fixed;
+    height: 150vh;
+    width: 100%;
+    z-index: 9;
+  }
+  .tablet-push {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 427px) {
+  div#menuButton {
+      position: fixed;
+      right: 10px;
+      z-index: 999;
+      top: 18px;
+
+    }
+}
+
+@media only screen and (max-width: 376px) {
+  div#menuButton {
+      position: fixed;
+      right: 5px;
+      z-index: 999;
+      top: 14px;
+
+    }
+}
+
+@media only screen and (max-width: 321px) {
+  div#menuButton {
+      position: fixed;
+      right: -5px;
+      z-index: 999;
+      top: 19px;
+    }
+    div#menuTitle {
+      margin: 10px 10px 10px -15px;
+}
+    }
+
+
 
 /* #navlinks {
   position: fixed;

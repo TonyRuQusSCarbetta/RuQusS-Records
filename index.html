@@ -24,114 +24,87 @@
 
 <body>
 
-  <div id="mainContainer bg-black">
-    <!-- closedMenuButton -->
+  <div id="mainContainer container-fluid ">
+    <!-- menuButton -->
     <div class="row">
-          <div class="col-12 text-light text-center mt-2 display-2 "><h1><em>RuQusS Records</em></h1></div>
-          <div id="closedMenuButton" class="col-1 offset-11 bg-black text-center">
-              <a class="closedMenuMiniBox p-3 flex-container hvr-skew-backward text-light col-xl-12 mx-auto" href="#menu">
+
+          <div id="menuButton" class="col-1 offset-11  text-center">
+
                 <i class="fas fa-bars fa-2x text-light hvr-pop icon-closed-menu"></i>
-
           </div>
           </div>
 
 
 
+          <!-- NAVBAR START -->
+          <nav id="nav" class="text-center col-xl-12  align-items-center justify-content-center text-white bg-dark">
+            <div class="row mx-auto">
+            <!-- menuTitle -->
+          <div id="menuTitle" class="col-lg-12">
+              <a class="openMenuMiniBox p-3 flex-container hvr-skew-forward text-dark border border-rounded col-xl-12 mx-auto" href="#freeMusic">
 
-
-
-          <div id="navlinks" class="container-fluid">
-
-
-              <div class="row justify-content-center align-items-center text-dark mt-5 mb-5 animated slideInLeft">
-
-                <div class="col-lg-3 text-center hvr-wobble-to-top-right "><a class="a-hover" href="#artistDevelopment"><h4>Artist Development<h4></a></div>
-
-                <div class="col-lg-3 text-center hvr-wobble-to-top-right"><a class="a-hover" href="#musicProduction"><h4>Music Production</h4></a></div>
-
-                <div class="col-lg-3 text-center hvr-wobble-to-top-right"><a class="a-hover" href="#web"><h4>Online Web Services</h4></a></div>
-
-                <div class="col-lg-1 text-center hvr-wobble-to-top-right"><a class="a-hover" href="#contact"><h4>Contact</h4></a></div>
-
-                </div>
+                <h5 class="text-dark">RuQusS Records </h5>
+                <i class="fas fa-volume-up text-dark fa-1x hvr-pop speaker-icon"></i>
+            </a>
           </div>
 
+          <!-- navbar buttons -->
+          <div class="row mx-auto">
+            <!-- Artist Development Button -->
+            <div class="col-lg-2 mr-5 ml-5">
+              <a class="box flex-container hvr-skew-forward text-dark border border-rounded" href="#artistDevelopment">
+                <h6>Artist<br> Development
+            </h6>
+            </a>
+          <i class="fas fa-user-plus text-dark fa-1x icon-nav hvr-pop"></i>
+          </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+          <!-- Music Production Button -->
+          <div class="col-lg-2 mr-5 tablet-push">
+            <a class="box flex-container hvr-skew-forward text-dark border border-rounded" href="#musicProduction">
+              <h6>Music<br> Production
+          </h6>
+          </a>
+          <i class="fas fa-music text-dark fa-1x icon-nav hvr-pop"></i>
+          </div>
+          <!-- Online Services Button -->
+          <div class="col-lg-2 mr-5 tablet-push">
+          <a class="box flex-container hvr-skew-forward text-dark border border-rounded ml-2 mr-5  mx-auto" href="#web">
+            <h6>Web<br> Services
+          </h6>
+          </a>
+          <i class="far fa-keyboard text-dark fa-1x icon-nav hvr-pop"></i>
+          </div>
+          <!-- Contact Button -->
+          <div class="col-lg-2">
+          <a class="box flex-container hvr-skew-forward text-dark border border-rounded" href="#contact">
+          <h6>Contact
+          </h6>
+          </a>
+          <i class="fas fa-envelope text-dark fa-1x icon-nav hvr-pop"></i>
+          </div>
+          </div>
+          </nav>
+          <!-- /NAVBAR END -->
 
 
 
     <div class="row bg-black">
-
-      <!-- navbar start -->
-      <nav id="nav" class=" hidden  text-center col-xl-12  align-items-center justify-content-center text-white">
         <div class="row mx-auto">
-        <!-- openMenuButton -->
-      <!-- <div id="openMenuButton" class="col-12 mt-3">
-          <a class="openMenuMiniBox p-3 flex-container hvr-skew-forward text-dark border border-rounded col-xl-12 mx-auto" href="#menu">
-            <i class="fas fa-bars text-dark hvr-pop"></i>
-            <h5 class="text-dark">RuQusS Records</h5>
-        </a>
-      </div> -->
-        <!-- Artist Development Button -->
-        <!-- <div class="col-12 mt-3 mb-0">
-          <a class="box flex-container hvr-skew-forward text-dark border border-rounded col-xl-12 mx-auto" href="#artistDevelopment">
-            <h6>Artist<br> Development
-        </h6>
-        </a>
-<i class="fas fa-user-plus text-dark fa-1x icon-nav hvr-pop"></i>
-      </div>
-      </div>
-      <div class="row mx-auto"> -->
-      <!-- Music Production Button -->
-      <div class="col-12">
-        <a class="box flex-container hvr-skew-forward text-dark border border-rounded col-xl-12 mx-auto" href="#freeMusic">
-          <h6>Free<br> Music
-      </h6>
-      </a>
-      <i class="fas fa-music text-dark fa-1x icon-nav hvr-pop"></i>
+<!-- CONTENT START -->
+<div id="content" class="container animated zoomIn border-radius">
+  <div class="row animated slideInUp justify-content-center align-items-center content-p bg-light mb-5 pb-5 border-radius">
+
+    <div class="col-md-3 flex-container border-radius ">
+<a href="#freeMusic"><i class="animated infinite pulse fas fa-volume-up text-dark fa-10x hvr-pop speaker-icon mt-5 pt-5"></i></a>
     </div>
-    <!-- Online Services Button -->
-    <!-- <div class="col-12">
-      <a class="box flex-container hvr-skew-forward text-dark border border-rounded ml-2 mr-2 col-xl-12 mx-auto" href="#onlineServices">
-        <h6>Online<br> Services
-    </h6>
-    </a>
-    <i class="far fa-keyboard text-dark fa-1x icon-nav hvr-pop"></i>
-  </div> -->
-  <!-- Contact Button -->
-  <!-- <div class="col-12">
-    <a class="box flex-container hvr-skew-forward text-dark border border-rounded ml-2 mr-2 col-xl-12 mx-auto" href="#contact">
-      <h6>Contact
-  </h6>
-  </a>
-  <i class="fas fa-envelope text-dark fa-1x icon-nav hvr-pop"></i>
-</div> -->
+
+    <div class="col-md-6 flex-container">
+    <h1 class="display-3 ml-5 mt-5 pt-5 text-dark float-right"><bold>RuQusS Records</bold></h1>
   </div>
-    </nav>
-  </div>
-  <!-- /main row -->
 </div>
-<!-- /main container -->
 
-
-<!-- <img class="img-fluid h-100" src="img/mixer.png"> -->
-<!-- <img class="img-fluid" src="img/brick-jacket.jpg"> -->
-<!-- Content Section -->
-<div id="content" class="container-fluid">
-  <div class="row justify-content-center align-items-center">
+<div class="row justify-content-center align-items-center">
     <div id="artistDevelopment" class="col-sm-12 m-5 p-5">
       <h2 class="content-p">Artist Development</h2>
       <p class="content-p"> Whether you are starting from zero or have released multiple projects, it is crucial that you are progressing as an artist.  Here at RuQusS Records we develop your dream into your reality.  No matter where you are at there is always room to grow. We have worked with artists at many different stages of their career.
@@ -157,14 +130,15 @@
 </div>
 </div>
 
-
-<iframe id="freeMusic" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/8263224&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+<div class="container">
+<iframe class="mt-5" id="freeMusic" width="100%" height="450" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/8263224&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+</div>
 
 
 <!-- #social -->
-<div id="contact" class="container-fluid bg-dark">
+<div id="contact" class="container-fluid bg-dark mb-5">
 <div class=" content row justify-content-center align-items-center text-center bg-dark">
-  <h2 class="text-white m-5 col-lg-12">Contact</h2>
+  <h2 class="text-white m-5 col-lg-12 display-4">Contact</h2>
 
     <div class="col-sm-3">
         <a href="mailto:ruquss@gmail.com" target="_blank"><i class="hvr-skew fas fa-envelope fa-10x text-white animated infinite pulse"></i>
@@ -192,10 +166,14 @@
 
     </div>
 
-  <footer>
-  <a class="text-light text-center" target="_blank" href="http://tonycarbetta.com">
-    <p class=" p-5 hvr-grow d-block">&copy 2018 All Rights Reserved developed by Tony Carbetta</p>
+<div class="container-fluid bg-light pb-5 pt-5">
+  <footer class="mx-auto text-center bg-light text-dark">
+
+  <a class=" text-dark text-center col-12" target="_blank" href="http://tonycarbetta.com">
+    <p class=" p-2 hvr-grow">&copy 2018 All Rights Reserved developed by Tony Carbetta</p>
   </a>
+  <a href="http:CarbettaCoding.com">
+    <img class="img-fluid CarbettaCoding hvr-grow" src="img/CarbettaCoding-Logo-Transparent.png" alt="CarbettaCoding"></a>
 </footer>
 
 
@@ -208,7 +186,7 @@
   <script src="js/jquery-3.3.1.js"></script>
   <!-- POPPER JS v1.14.3  -->
   <script src="js/popper.min.js">
-    //https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js
+    //https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/ulg/popper.min.js
   </script>
   <!-- BOOTSTRAP JS v4.1.1 -->
   <script src="js/bootstrap.min.js"></script>

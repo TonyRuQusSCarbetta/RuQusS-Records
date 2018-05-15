@@ -1,8 +1,3 @@
-$("#closedMenuButton").click(function() {
-  // $("nav").toggle();
-  $("nav").toggleClass("hidden animated slideInRight");
+$("#menuButton").click(function() {
+  $("nav").toggleClass("animated slideOutRight");
 });
-
-$("#openMenuButton").click(function () {
-  $("nav").toggleClass("hidden animated slideInLeft");
-})
