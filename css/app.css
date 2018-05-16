@@ -96,7 +96,8 @@ a {
 
 #content {
   background-image: url("../img/brick-jacket.jpg");
-      margin-top: 151px;
+      /* margin-top: 151px; */
+      margin-top: 200px;
       border-radius: 3%;
 }
 
@@ -122,18 +123,6 @@ div#menuTitle {
   width: 310px;
 }
 
-/* footer {
-  margin: 0 auto;
-}
-
-#footer {
-  margin: 0 auto;
-} */
-/* #openMenuButton {
-  position: fixed;
-  z-index: 999;
-} */
-
 div#menuButton {
     position: fixed;
     right: 121px;
@@ -145,44 +134,83 @@ h5 {
   margin-top: 8px;
 }
 
+div#speaker {
+    position: relative;
+    right: 300px;
+    font-size: 12px;
+    top: 10px;
+}
+
+@media only screen and (max-width: 1025px) {
+    div#speaker {
+        position: relative;
+        font-size: 10px;
+        top: 10px;
+        right: 240px;
+    }
+}
+
 @media only screen and (max-width: 769px) {
   #nav {
     position: fixed;
     height: 150vh;
     width: 100%;
-    z-index: 9;
+    z-index: 19;
   }
   .tablet-push {
     margin-left: 50px;
+  }
+  div#speaker {
+      position: relative;
+      right: 50px;
+      top: 10px;
   }
 }
 
 @media only screen and (max-width: 427px) {
   div#menuButton {
-      position: fixed;
-      right: 10px;
-      z-index: 999;
-      top: 18px;
-
+    position: fixed;
+    right: 346px;
+    z-index: 999;
+    top: 19px;
     }
+    div#speaker {
+        display: none;
+    }
+  .title {
+    font-style: italic;
+  }
+  h2.content-p {
+    /* color: #f8f9fa; */
+    font-style: italic;
 }
+/* #speaker-mobile-view {
+  display: inline-block;
+} */
+}
+
+
 
 @media only screen and (max-width: 376px) {
   div#menuButton {
-      position: fixed;
-      right: 5px;
-      z-index: 999;
-      top: 14px;
-
+    position: fixed;
+    right: 315px;
+    z-index: 999;
+    top: 19px;
+    }
+    div#speaker {
+        position: relative;
+        font-size: 10px;
+        top: 10px;
     }
 }
 
 @media only screen and (max-width: 321px) {
   div#menuButton {
-      position: fixed;
-      right: -5px;
-      z-index: 999;
-      top: 19px;
+    position: fixed;
+    right: 322px;
+    z-index: 999;
+    top: 19px;
     }
     div#menuTitle {
       margin: 10px 10px 10px -15px;
